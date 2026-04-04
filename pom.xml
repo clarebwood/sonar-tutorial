@@ -29,6 +29,7 @@
 
         <sonar.organization>clarebwood</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>clarebwood_sonar-tutorial</sonar.projectKey>
 
 
         <!-- Dependency versions used below -->
