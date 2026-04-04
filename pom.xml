@@ -27,6 +27,9 @@
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 
+        <sonar.organization>clarebwood</sonar.organization>
+
+
         <!-- Dependency versions used below -->
         <jacoco.version>0.8.6</jacoco.version>
         <surefire.version>3.0.0-M5</surefire.version>
