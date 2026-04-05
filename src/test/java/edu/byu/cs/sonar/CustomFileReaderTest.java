@@ -43,4 +43,16 @@ class CustomFileReaderTest {
         sut.setNewSentence(betterSentence);
         assertEquals(betterSentence, sut.getNewSentence());
     }
+
+    @Test
+    void testEqualsUsesCount() throws FileNotFoundException {
+        CustomFileReader reader1 = new CustomFileReader("readMe1.txt");
+        CustomFileReader reader2 = new CustomFileReader("readMe1.txt");
+
+        reader1.howManyWordsInFile();
+        reader2.howManyWordsInFile();
+
+        assertEquals(reader1, reader2);
+    }
+
 }
